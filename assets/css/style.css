@@ -1,0 +1,30 @@
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    background-color: #00235d;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 2.5em;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+a.navbar-brand {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+}
